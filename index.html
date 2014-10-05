@@ -14,6 +14,8 @@
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="vendor/distrib-jquery-mobile/css/jquery.mobile.css">
+        
         <!--上課用不到  <script src="js/vendor/modernizr-2.6.2.min.js"></script>  -->
     </head>
     <body>
@@ -24,11 +26,22 @@
         <!-- Add your site or application content here -->
         <!--上課用不到  <p>Hello world! This is HTML5 Boilerplate1.</p>  -->
         
-        <div id="header">
-        </div>
-        
-        <div id="game">
-            <canvas id="draw"></canvas>
+        <div data-role="page">
+            <div id="header" data-role="header">
+                <div data-role="navbar">
+                    <ul>
+                        <li><a href="#" class="ui-btn-active">One</a></li>
+                        <li><a href="#">Two</a></li>
+                        <li><a href="#">Three</a></li>
+                    </ul>
+                </div><!-- /navbar -->
+            </div>
+
+            <div id="game" role="main" class="ui-content">
+                <canvas id="draw"></canvas>
+            </div>
+
+            <div data-role="footer"></div>
         </div>
 
         <script src="js/modernizr.min.js"></script>
