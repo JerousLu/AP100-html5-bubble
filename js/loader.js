@@ -16,7 +16,7 @@ window.addEventListener("load", function () {
                     "js/game.js"
                 ],
                 complete : function() {
-                    setInterval(function () { gameModule.gameStart() }, 3000);  
+                    setInterval(function () { gameModule.start() }, 3000);  
                 }
         }
     ]);

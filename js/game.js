@@ -70,6 +70,6 @@ var gameModule = (function() {
     }
     
     return {
-        gameStart: start
+        start: start
     }
 }) ();
