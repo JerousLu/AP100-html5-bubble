@@ -1,0 +1,8 @@
+.DS_Store
+bower_components/*
+public/vendor/*
+node_modules/*
+*.min.js
+*.min.js.map
+*.min.css
+.nodemonignore
